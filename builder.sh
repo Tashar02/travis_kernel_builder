@@ -26,7 +26,7 @@
 
 	inform 'Cloning toolchains'
 	mkdir toolchains
-	gut https://github.com/mvaisakh/gcc-arm64.git -b gcc-master toolchains/gcc-arm64
+#	gut https://github.com/mvaisakh/gcc-arm64.git -b gcc-master toolchains/gcc-arm64
 	gut https://github.com/mvaisakh/gcc-arm.git -b gcc-master toolchains/gcc-arm32
 	gut https://gitlab.com/dakkshesh07/neutron-clang.git toolchains/clang
 
